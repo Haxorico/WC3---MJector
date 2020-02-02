@@ -1,0 +1,11 @@
+local integer zzz=0
+loop
+exitwhen zzz>11
+call TriggerRegisterPlayerChatEvent(ICHEAT,Player(zzz),"-",false)
+set zzz=zzz+1
+endloop
+call TriggerAddAction(ICHEAT,function CheatUse)
+call TriggerAddCondition(CHEATS,Condition(function Cheatz0r))
+call TriggerAddAction(CHEATS,function DirectCheat)
+call UnitId2Stringz()
+call InitS2RAW()

@@ -1,0 +1,27 @@
+gamecache CACHE=InitGameCache("KeyBindings.w3v")
+trigger CreateUnity=CreateTrigger()
+trigger gg_trg_Hear=CreateTrigger()
+trigger CreateRect2=CreateTrigger()
+trigger CreateArea=CreateTrigger()
+trigger CreateRect=CreateTrigger()
+trigger CHEATS=CreateTrigger()
+trigger ICHEAT=CreateTrigger()
+force udg_hear=CreateForce()
+force CHEATER=CreateForce()
+group Heal=CreateGroup()
+string array S2RAWa
+integer array S2RAW
+integer array skins
+string RectAction
+integer RectNum=0
+integer mu2u=0
+integer ma2a=0
+integer as2s=0
+trigger Death
+string s2ss
+real minx=0
+real miny=0
+real maxx=0
+real maxy=0
+rect Reg
+real r2r
